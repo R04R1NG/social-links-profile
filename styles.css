@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    line-height: 150%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--white)
+}
+
+body {
+    background-color: var(--grey-900);
+    min-height: 100vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+        
+}
+
+.card {
+    background-color: var(--grey-800);
+    width: 22.75rem;
+    padding: 2.5rem;
+    border-radius: 0.75rem;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+}
+
+button {
+    background-color: var(--grey-700); 
+    font-size: 1rem;
+    cursor: pointer; /* Pointer/hand icon */
+    padding: 1rem 0;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0;
+    display: block;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    padding: 24px 0;
+    gap: 16px;   
+}
+
+
+.profile h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.profile h3{
+    color: var(--green);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile img {
+    border-radius: 50%;
+    max-width: 75px;
+    max-height: 75px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 18px 0;
+    color: var(--grey-700);
+    text-align: center;
+}
+
+footer a{
+    color: var(--gray_500);
+    text-decoration: underline;
+}
+
+footer a:hover{
+    color: var(--green);
+}
