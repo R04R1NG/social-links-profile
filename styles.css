@@ -76,7 +76,7 @@ button:hover {
     font-weight: 700;
 }
 
-.profile h3{
+.profile h2{
     color: var(--green);
     font-size: .825rem;
     font-weight: 600;
