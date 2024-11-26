@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshots/Desktop_screenshot.png)
+![](./assets/screenshots/social-links-profile_screenshot.png)
 
 ### Links
 
