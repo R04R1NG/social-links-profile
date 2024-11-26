@@ -79,6 +79,7 @@ button:hover {
 .profile h2{
     color: var(--green);
     font-size: .825rem;
+    line-height: 170%;
     font-weight: 600;
 }
 
