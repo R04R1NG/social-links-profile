@@ -10,7 +10,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://social-links-profile-ten-rouge.vercel.app/)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: https://social-links-profile-ten-rouge.vercel.app/
 
 ## Author
 
