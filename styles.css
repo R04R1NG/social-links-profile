@@ -15,6 +15,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Inter";
     line-height: 150%;
     font-weight: 400;
@@ -32,7 +33,7 @@ body {
 
 .card {
     background-color: var(--grey-800);
-    width: 21.5rem;
+    width: 23.75rem;
     padding: 1.5rem;
     border-radius: 0.75rem;
 }
@@ -83,7 +84,8 @@ button:hover {
 
 .profile p {
     font-size: .825rem;
-    font-weight: 600;
+    color: gainsboro;
+    font-weight: 400;
 }
 
 .profile img {
@@ -110,3 +112,14 @@ footer a{
 footer a:hover{
     color: var(--green);
 }
+
+@media(max-width: 400px) {
+    .card {
+        width: 20.25rem;
+        padding: 0.5rem;
+    }
+    footer {
+        font-size: .75rem;
+        }
+}
+
