@@ -45,7 +45,10 @@ body {
     gap: 1rem;    
 }
 
-button {
+.button-group a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
     background-color: var(--grey-700); 
     font-size: .825rem;
     font-weight: 600;
@@ -57,7 +60,7 @@ button {
     display: block;
 }
 
-button:hover {
+.button-group a:hover {
     background-color: var(--green);
     color: var(--grey-800);
 }
